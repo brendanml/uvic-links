@@ -1,4 +1,4 @@
-# quick-links
+# Quick Links
 
 Quick Links is a small web-app app that aggregates my current semesters courses as well as other relevant/useful University links.
 
