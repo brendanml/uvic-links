@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Prompt', Arial, sans-serif;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#UVIC {
+    color: black;
+    margin-right: 6px;
+}
+
+#uvic-home {
+    width: 75px;
+}
+
+#uvic-home img{
+    padding-top: 10px;
+    width: 75px;
+}
+
+#uvic-home img:hover{
+    padding-top: 10px;
+    width: 80px;
+}
+
+#co-op-logo {
+    width: 75px;
+}
+
+#co-op-logo img{
+    padding-top: 10px;
+    width: 75px;
+}
+
+#co-op-logo img:hover{
+    padding-top: 10px;
+    width: 80px;
+}
+
+
+#page-title {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+#page-title h1:hover {
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+
+
+#header {
+    width: 100%;
+    height: 4.5rem;
+    margin: auto;
+    padding: 3px;
+    margin-bottom: 50px;
+    background-color: white;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 5px;
+}
+
+.card h2 {
+    margin-top: 500px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+#card-title {
+    margin-top: 20px;
+    font-family: 'Permanent Marker';
+}
+
+.card ul {
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    color: white;
+    line-height: 30px;
+    transition: all .15s;
+}
+
+.card ul li:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+#course-cards {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    font-size: 15px;
+}
+
+.search {
+    padding-left: 1.5rem;
+    margin-top: 10px;
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.search:hover {
+    
+}
+
+.search form input {
+    margin-left: 2px;
+    border: none;
+    height: 2rem;
+    width: 22rem;
+}
+
+.search form input:hover {
+    cursor: text;
+}
+
+.search form input:focus {
+    outline: none;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.google {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 50px;
+    color: white;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    #small-text {
+        display: none;
+    }
+    #page-title {
+        width: 200px;
+        margin: none;
+    }
+    #g-bar {
+        display: none;
+    }
+}
