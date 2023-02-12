@@ -1,5 +1,5 @@
 # Quick Links
-
+* [Visit the website](https://brenclen.github.io/quick-links/)
 Quick Links is a small web app that aggregates my current semesters courses links as well as other relevant/useful University links.
 
 # NOTE:
